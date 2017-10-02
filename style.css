@@ -2,6 +2,23 @@ nav{
   font-size:28px;
 }
 
+a:link{
+  color:purple;
+  background-color:gray;
+}
+
+a:visited{
+
+}
+
+div{
+
+}
+
+a:hover{
+  
+}
+
 img{
   width:400px;
 }
