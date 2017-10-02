@@ -16,7 +16,8 @@ div{
 }
 
 a:hover{
-  
+  color:green;
+  background-color:gray;
 }
 
 img{
