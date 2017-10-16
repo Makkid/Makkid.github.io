@@ -20,7 +20,11 @@ div{
 }
 
 a:hover{
+<<<<<<< HEAD
   color:lime;
+=======
+  color:green;
+>>>>>>> c1e4c16d27bc93a876927e68a513cc19bcb9a781
   background-color:gray;
 }
 
