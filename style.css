@@ -3,7 +3,7 @@ nav{
 }
 
 a:link{
-  color:purple;
+  color:aqua;
   background-color:gray;
 }
 
@@ -12,11 +12,15 @@ a:visited{
 }
 
 div{
-
+  background-color:Crimson;
+  margin:30px
+  padding:25px;
+  border-radius:30px;
+  text-align:center;
 }
 
 a:hover{
-  color:green;
+  color:lime;
   background-color:gray;
 }
 
