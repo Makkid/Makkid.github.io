@@ -8,28 +8,22 @@ a:link{
 }
 
 a:visited{
-
+  color:aquamarine;
+  background-color:#4d4d4d;
 }
 
 div{
   background-color:#D9E6FF;
-  margin:30px
+  margin:30px;
   padding:25px;
   border-radius:30px;
   text-align:center;
 }
 
 a:hover{
-<<<<<<< HEAD
   color:lime;
-=======
-  color:green;
->>>>>>> c1e4c16d27bc93a876927e68a513cc19bcb9a781
-  background-color:gray;
-}
-
-img{
-  width:400px;
+  background-color:#4d4d4d;
+  font-size:36px;
 }
 
 body{
@@ -45,5 +39,13 @@ body{
 }
 
 img{
-  height:200px
+  width:600px;
+}
+
+img{
+  height:400px
+}
+
+#magicbody{
+  font-size:39px
 }

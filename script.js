@@ -27,6 +27,8 @@ var list = [//0
 //12
 "Just google it."];
 
+var imageState = "front";
+
 //this function outputs a random number
 function randomNum(){
   return Math.floor(Math.random() * 13);
@@ -37,11 +39,27 @@ function randomNum(){
 function shakeMagic8Ball(){
   //alert("test");
 
-  //grabs image by id
-  document.getElementById("magic8ball").src="magic8ball1.png";
+  //if the image is of the front side...
+  if(imageState == "front"){
+    //grabs image by id
+    document.getElementById("magic8ball").src="magic8ball1.png";
 
-  //grab the results
-  document.getElementById("results").innerHTML=list[randomNum()];
+    //grab the results
+    document.getElementById("results").innerHTML=list[randomNum()];
+
+    imageState = "back"
+  }
+  //else, it's the image of the back side...
+  else{
+    //go back to the front image
+    document.getElementById("magic8ball").src="magic8ball.gif";
+
+    //change results paragraph to say something to promt the user
+    //to shake the 8 ball again
+    document.getElementById("results").innerHTML="Ask a question then click the magic 8 ball again to recieve another fortune.";
+
+    imageState = "front"
+  }
 
   //alert(randomNum());
 }
