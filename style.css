@@ -18,6 +18,9 @@ div{
   padding:25px;
   border-radius:30px;
   text-align:center;
+  border-style:double;
+  border-width:20px;
+  border-color:black;
 }
 
 a:hover{
