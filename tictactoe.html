@@ -3,7 +3,9 @@
     <title>
       Tic Tac Toe
     </title>
-    <link rel="stylesheet" type="text/css" href="style.css"
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="tictactoe.js">
+    </script>
   </head>
     <div id="container">
       <body>
@@ -21,14 +23,22 @@
   				</a>
   			</nav>
     </body>
-        <section>
-          <input id="reset" type="button" value="Reset"
-        </section>
+    <section>
+      <input id="reset" type="button" value="Reset" />
+    </section>
     <div id="board">
-
+      <div id="r1c1" onclick="turn('r1c1')" class="box"></div>
+      <div id="r1c2" onclick="turn('r1c2')" class="box"></div>
+      <div id="r1c3" onclick="turn('r1c3')" class="box"></div>
+      <div id="r2c1" onclick="turn('r2c1')" class="box"></div>
+      <div id="r2c2" onclick="turn('r2c2')" class="box"></div>
+      <div id="r2c3" onclick="turn('r2c3')" class="box"></div>
+      <div id="r3c1" onclick="turn('r3c1')" class="box"></div>
+      <div id="r3c2" onclick="turn('r3c2')" class="box"></div>
+      <div id="r3c3" onclick="turn('r3c3')" class="box"></div>
     </div>
     <section id="results">
-
+      Click to start...
     </section>
   </div>
 </html>
