@@ -1,5 +1,8 @@
 nav{
-  font-size:28px;
+  font-size:18px;
+  border-width:10px;
+  border-style:solid;
+  border-color:white;
 }
 
 a:link{
@@ -12,8 +15,8 @@ a:visited{
   background-color:#4d4d4d;
 }
 
-div{
-  background-color:#D9E6FF;
+#container{
+  background-color:white;
   margin:30px;
   padding:25px;
   border-radius:30px;
@@ -21,12 +24,23 @@ div{
   border-style:double;
   border-width:20px;
   border-color:black;
+  text-align:center;
+}
+
+#board{
+  width:300px;
+  height:300px;
+  border-style:double;
+  border-width:10px;
+  margin-left:auto;
+  margin-right:auto;
+  border-color:black;
 }
 
 a:hover{
   color:lime;
   background-color:#4d4d4d;
-  font-size:36px;
+  font-size:28px;
 }
 
 body{
