@@ -25,13 +25,15 @@ var list = [//0
 //11
 "Lol idk.",
 //12
-"Just google it."];
+"Just google it.",
+//13
+"No! Just no!"];
 
 var imageState = "front";
 
 //this function outputs a random number
 function randomNum(){
-  return Math.floor(Math.random() * 13);
+  return Math.floor(Math.random() * 14);
 }
 
 //this function responds with a fortune
