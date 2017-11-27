@@ -37,21 +37,12 @@ a:hover{
 
 body{
   color:blue;
-}
-
-body{
   background-color:#47B2B8;
-}
-
-body{
   font-size:20px;
 }
 
 img{
   width:600px;
-}
-
-img{
   height:400px
 }
 
@@ -74,6 +65,7 @@ img{
   margin-right:auto;
   border-color:black;
   border-radius:20px;
+  background-color:Blue
 }
 
 .box{
@@ -88,4 +80,6 @@ img{
   color:black;
   line-height:100px;
   vertical-align:middle;
+  background-color:grey;
+  text-shadow:50px
 }

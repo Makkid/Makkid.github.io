@@ -1,10 +1,11 @@
 var character = 'O';
+var gameOver = false;
 
 //this function handles the onclick event
 function turn(location){
 
   //so a already written character doesn't get over written
-  if(document.getElementById(location).innerHTML == ""){
+  if(document.getElementById(location).innerHTML == "" && gameOver == false){
 
     //update results div with feedback
     document.getElementById("results").innerHTML = "It's " + character + "'s turn!";
@@ -49,12 +50,15 @@ function checkWinner(){
 
     //alert("Winner Winner Chicken Dinner!");
 
+    gameOver = true;
+
     //update results div
     document.getElementById("results").innerHTML = character + " wins!";
   }
 
 }
 
+//clear all boxes
 function clearAll(){
   document.getElementById("r1c1").innerHTML = "";
   document.getElementById("r1c2").innerHTML = "";
@@ -65,4 +69,18 @@ function clearAll(){
   document.getElementById("r3c1").innerHTML = "";
   document.getElementById("r3c2").innerHTML = "";
   document.getElementById("r3c3").innerHTML = "";
+
+  //update results div with feedback
+  document.getElementById("results").innerHTML = "It's " + character + "'s turn!";
+
+  //switch between x and o
+  if(character == 'X'){
+    character = 'O';
+  }
+  else{
+    character = 'X';
+  }
+
+//clears game so can play again
+  gameOver = false;
 }
