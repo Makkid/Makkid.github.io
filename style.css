@@ -98,3 +98,24 @@ img{
   height:600px;
   width:100px;
 }
+
+#gallerypics{
+  width:300px;
+  height:300px;
+  border-style:double;
+  border-width:10px;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:auto;
+  margin-right:auto;
+  border-color:black;
+  border-radius:20px;
+  background-color:white;
+
+}
+
+#pics{
+    width:300px;
+    height:300px;
+    border-radius:20px;
+  }
